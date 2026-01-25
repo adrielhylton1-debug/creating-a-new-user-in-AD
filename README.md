@@ -2,47 +2,54 @@
 Creating a new domain user in Active Directory Users and Computers (ADUC), setting password options, and verifying the account in the domain.
 # Creating a User in Active Directory (ADUC)
 
-## 🎥 Watch me build this lab here
-**Watch me build this lab here:** [LOOM VIDEO LINK](https://www.loom.com/share/7f76cc5fd3294dacac963a14ead1a864) 
+## Watch me build this lab here
+- Loom walkthrough: https://www.loom.com/share/7f76cc5fd3294dacac963a14ead1a864
 
 ---
 
-## 🧭 Objective
-Create a new domain user in **Active Directory Users and Computers (ADUC)** and apply basic account security settings (strong password + password policy selection).
+## Objective
+Create a new domain user in **Active Directory Users and Computers (ADUC)** and verify the account was created successfully.
 
-## 🧠 Skills Practiced
-- Navigating **Active Directory Users and Computers (ADUC)**
-- Creating a new user object in a domain
-- Applying password/security options (e.g., password policy choices)
-- Verifying successful user creation
+## Skills Practiced
+- Navigating **ADUC** (domain tree, Users container)
+- Creating a new user object
+- Applying password options (basic security awareness)
+- Verifying account creation via user listing / properties
 
-## 🧰 Tools Used
+## Tools Used
 - Windows Server (Domain Controller)
 - Active Directory Domain Services (AD DS)
 - Active Directory Users and Computers (ADUC)
 
 ---
 
-## 🪜 Steps Performed (with screenshots)
+## Steps Performed
 
 ### 1) Start user creation in ADUC (Users container)
-Created a new user under the domain container and entered the user’s identity fields (name + username).
-![Create User - Details](images/createuserAD1.png)
-
-### 2) Set a strong password + account options
-Configured a secure password and selected the appropriate password/account settings for the lab.
-![Create User - Password](images/createuserAD2.png)
-
-### 3) Verify successful creation of the user
-Confirmed the user was created and is visible in ADUC (and/or reviewed properties to validate the account).
-![Create User - Verified](images/createuserAD3.png)
+Opened **ADUC → domain → Users**, then initiated **New → User** and entered the user’s identity fields.
+  
+![Create user wizard (identity fields)](images/createuserAD1.png)
 
 ---
 
-## ✅ Outcome
-Successfully created a new Active Directory user account and verified it exists in the domain, demonstrating basic identity administration and account security awareness.
+### 2) Set password + account options
+Configured a strong password and selected the appropriate options (ex: password behavior) for the lab scenario.
 
-## 🔁 Next Improvements
-- Create a dedicated **OU** (e.g., `IT`, `Students`, `Staff`) and place users accordingly  
-- Add the user to a security group (least privilege)  
-- Enforce password policies via **Group Policy** and test login behavior
+![Create user wizard (password + options)](images/createuserAD2.png)
+
+---
+
+### 3) Verify successful user creation
+Confirmed the user appears in the **Users** container and reviewed properties to validate the account exists and is configured.
+
+![User successfully created (verification/properties)](images/createuserAD3.png)
+
+---
+
+## Outcome
+A new domain user was successfully created in Active Directory and verified in ADUC.
+
+## Notes
+- If images don’t render, it’s almost always a **path/filename mismatch** (GitHub is case-sensitive).
+  - Confirm your repo has: `images/createuserAD1.png`, `images/createuserAD2.png`, `images/createuserAD3.png`
+  - If your files are named like `CreateUserAD1.png`, update the links above to match **exactly**.
