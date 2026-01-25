@@ -28,7 +28,7 @@ Create a new Active Directory user account in **Active Directory Users and Compu
 ### 1) Created a new user account (Will Smith) in ADUC
 Opened **skools.local → Users**, started the **New Object - User** wizard, and entered user identity + logon values.
 
-![Creating a new user in ADUC]((images/CreateUserAD1.png)
+![Creating a new user in ADUC]([images/CreateUserAD1.png)
 
 ---
 
