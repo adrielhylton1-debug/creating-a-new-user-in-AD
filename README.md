@@ -28,21 +28,21 @@ Create a new Active Directory user account in **Active Directory Users and Compu
 ### 1) Created a new user account (Will Smith) in ADUC
 Opened **skools.local → Users**, started the **New Object - User** wizard, and entered user identity + logon values.
 
-![Creating a new user in ADUC](images/CreateUserAD3.png)
+![Creating a new user in ADUC]((images/CreateUserAD1.png)
 
 ---
 
 ### 2) Set an initial password + selected a lab security option
 Configured an initial password and selected **Password never expires** (common in labs; not recommended for production accounts).
 
-![Setting password and account options](images/CreateUserAD1.png)
+![Setting password and account options](images/CreateUserAD2.png)
 
 ---
 
 ### 3) Verified successful creation + reviewed user properties
 Confirmed the user appears under **Users** and validated settings in the user’s **Properties**.
 
-![User created and verified in ADUC](images/CreateUserAD2.png)
+![User created and verified in ADUC](images/CreateUserAD3.png)
 
 ---
 
